@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>dopegamevzn — Play. Create. Dominate.</title>
+  <meta name="description" content="dopegamevzn — urban gaming culture, merch & community." />
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="icon" href="assets/images/favicon.png">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">dopegamevzn</a>
+      <nav class="nav" id="nav">
+        <a href="#about">About</a>
+        <a href="#shop">Shop</a>
+        <a href="#community">Community</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <h1>dopegamevzn</h1>
+        <p class="tagline">Play. Create. Dominate. — Street culture x gaming.</p>
+        <a class="cta" href="#shop">Shop Merch</a>
+      </div>
+    </section>
+
+    <section id="about" class="container section about">
+      <h2>About dopegamevzn</h2>
+      <p>Born at the intersection of street style and competitive gaming. We design limited-run merch, build community tournaments, and drop culture-driven content.</p>
+      <div class="features">
+        <article><h3>Limited Merch</h3><p>High-quality streetwear drops with bold designs.</p></article>
+        <article><h3>Tournaments</h3><p>Regular online and IRL events to show your skills.</p></article>
+        <article><h3>Creators</h3><p>Collaborations with artists, streamers & designers.</p></article>
+      </div>
+    </section>
+
+    <section id="shop" class="container section shop">
+      <h2>Shop</h2>
+      <p class="muted">Sample products — placeholder links.</p>
+      <div class="product-grid">
+        <div class="product">
+          <img src="assets/images/product1.png" alt="Dope Tee">
+          <h4>Dope Tee</h4>
+          <p class="price">$35</p>
+          <button class="btn" onclick="alert('Dummy checkout — add backend to enable cart')">Buy</button>
+        </div>
+        <div class="product">
+          <img src="assets/images/product2.png" alt="Snapback">
+          <h4>VZN Snapback</h4>
+          <p class="price">$28</p>
+          <button class="btn" onclick="alert('Dummy checkout — add backend to enable cart')">Buy</button>
+        </div>
+        <div class="product">
+          <img src="assets/images/product3.png" alt="Hoodie">
+          <h4>Street Hoodie</h4>
+          <p class="price">$65</p>
+          <button class="btn" onclick="alert('Dummy checkout — add backend to enable cart')">Buy</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="community" class="container section community">
+      <h2>Community</h2>
+      <p>Join our Discord, follow us on socials, and compete in monthly tournaments. Sign up for drops and events.</p>
+      <form id="newsletter" class="newsletter" onsubmit="subscribe(event)">
+        <input type="email" id="email" placeholder="Your email" required>
+        <button type="submit">Join</button>
+      </form>
+    </section>
+
+    <section id="contact" class="container section contact">
+      <h2>Contact</h2>
+      <p>For collabs, press, or wholesale — drop us a message.</p>
+      <form id="contact-form" onsubmit="contactSubmit(event)">
+        <input type="text" id="name" placeholder="Your name" required>
+        <input type="email" id="contact-email" placeholder="Your email" required>
+        <textarea id="message" rows="5" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn primary">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© dopegamevzn <span id="year"></span> — Built with style.</p>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Twitter">X</a>
+        <a href="#" aria-label="Discord">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/scripts.js"></script>
+</body>
+</html>
